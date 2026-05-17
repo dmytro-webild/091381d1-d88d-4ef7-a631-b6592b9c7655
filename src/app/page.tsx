@@ -73,12 +73,12 @@ export default function LandingPage() {
       carouselItems={[
         {
           id: "1",
-          imageSrc: "http://img.b2bpic.net/free-photo/indoor-design-luxury-resort_23-2150497253.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/indoor-design-luxury-resort_23-2150497253.jpg?_wi=1",
           imageAlt: "Luxurious Suite",
         },
         {
           id: "2",
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-greenery_53876-147903.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-greenery_53876-147903.jpg?_wi=1",
           imageAlt: "Tropical Garden",
         },
         {
@@ -197,7 +197,7 @@ export default function LandingPage() {
           description: "Relax at our café or order food directly to your room.",
           bentoComponent: "reveal-icon",
           icon: Coffee,
-          imageSrc: "http://img.b2bpic.net/free-photo/indoor-design-luxury-resort_23-2150497253.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/indoor-design-luxury-resort_23-2150497253.jpg?_wi=2",
           imageAlt: "beautiful bora travel tree bungalow",
         },
         {
@@ -205,7 +205,7 @@ export default function LandingPage() {
           description: "Laundry, wake-up calls, and housekeeping at your request.",
           bentoComponent: "reveal-icon",
           icon: Sparkles,
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-greenery_53876-147903.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-greenery_53876-147903.jpg?_wi=2",
           imageAlt: "beautiful bora travel tree bungalow",
         },
       ]}
