@@ -32,75 +32,29 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarLayoutFloatingOverlay
       navItems={[
-        {
-          name: "About",
-          id: "#about",
-        },
-        {
-          name: "Rooms",
-          id: "#rooms",
-        },
-        {
-          name: "Services",
-          id: "#services",
-        },
-        {
-          name: "Contact",
-          id: "#contact",
-        },
+        { name: "About", id: "#about" },
+        { name: "Rooms", id: "#rooms" },
+        { name: "Services", id: "#services" },
+        { name: "Contact", id: "#contact" },
       ]}
       brandName="Hotel Calidum"
-      button={{
-        text: "Book Now",
-        href: "#contact",
-      }}
+      button={{ text: "Book Now", href: "#contact" }}
     />
   </div>
 
   <div id="hero" data-section="hero">
       <HeroBillboardRotatedCarousel
-      background={{
-        variant: "rotated-rays-static",
-      }}
+      background={{ variant: "rotated-rays-static" }}
       title="Welcome to Hotel Calidum"
       description="Discover comfort and tranquility in the heart of Phu Quoc island. Your perfect tropical urban getaway awaits."
-      buttons={[
-        {
-          text: "Book Now",
-          href: "#contact",
-        },
-      ]}
+      buttons={[{ text: "Book Now", href: "#contact" }]}
       carouselItems={[
-        {
-          id: "1",
-          imageSrc: "http://img.b2bpic.net/free-photo/indoor-design-luxury-resort_23-2150497253.jpg?_wi=1",
-          imageAlt: "Luxurious Suite",
-        },
-        {
-          id: "2",
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-greenery_53876-147903.jpg?_wi=1",
-          imageAlt: "Tropical Garden",
-        },
-        {
-          id: "3",
-          imageSrc: "http://img.b2bpic.net/free-photo/empty-hotel-reception-entryway-with-glamorous-decorations_482257-87376.jpg",
-          imageAlt: "Friendly Staff",
-        },
-        {
-          id: "4",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-young-asian-women-happy-smile-relax-around-outdoor-swimming-pool_74190-9736.jpg",
-          imageAlt: "Pool Area",
-        },
-        {
-          id: "5",
-          imageSrc: "http://img.b2bpic.net/free-photo/empty-wood-chair_1339-6716.jpg",
-          imageAlt: "Cafe Terrace",
-        },
-        {
-          id: "6",
-          imageSrc: "http://img.b2bpic.net/free-photo/green-architectural-city-buildings_23-2149554113.jpg",
-          imageAlt: "Playground",
-        },
+        { id: "1", imageSrc: "http://img.b2bpic.net/free-photo/indoor-design-luxury-resort_23-2150497253.jpg", imageAlt: "Luxurious Suite" },
+        { id: "2", imageSrc: "http://img.b2bpic.net/free-photo/beautiful-greenery_53876-147903.jpg", imageAlt: "Tropical Garden" },
+        { id: "3", imageSrc: "http://img.b2bpic.net/free-photo/empty-hotel-reception-entryway-with-glamorous-decorations_482257-87376.jpg", imageAlt: "Friendly Staff" },
+        { id: "4", imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-young-asian-women-happy-smile-relax-around-outdoor-swimming-pool_74190-9736.jpg", imageAlt: "Pool Area" },
+        { id: "5", imageSrc: "http://img.b2bpic.net/free-photo/empty-wood-chair_1339-6716.jpg", imageAlt: "Cafe Terrace" },
+        { id: "6", imageSrc: "http://img.b2bpic.net/free-photo/green-architectural-city-buildings_23-2149554113.jpg", imageAlt: "Playground" },
       ]}
     />
   </div>
@@ -112,18 +66,9 @@ export default function LandingPage() {
       title="Attention to Detail, Guest Care"
       description="At Hotel Calidum, we believe it's the little things that make your stay unforgettable. From premium toiletries to our welcoming atmosphere, we ensure every detail of your time on Phu Quoc is perfect for families, travelers, and business guests alike."
       bulletPoints={[
-        {
-          title: "Safety & Service",
-          description: "24/7 security, multilingual staff, and dedicated shuttle services.",
-        },
-        {
-          title: "Family Friendly",
-          description: "Dedicated children's playground and spacious rooms for your peace of mind.",
-        },
-        {
-          title: "Business Ready",
-          description: "Desk setups, high-speed WiFi, and fax services to keep you connected.",
-        },
+        { title: "Safety & Service", description: "24/7 security, multilingual staff, and dedicated shuttle services." },
+        { title: "Family Friendly", description: "Dedicated children's playground and spacious rooms for your peace of mind." },
+        { title: "Business Ready", description: "Desk setups, high-speed WiFi, and fax services to keep you connected." },
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/summer-white-sea-vintage-maldives_1203-4459.jpg"
       mediaAnimation="slide-up"
@@ -137,42 +82,12 @@ export default function LandingPage() {
       gridVariant="four-items-2x2-equal-grid"
       useInvertedBackground={true}
       products={[
-        {
-          id: "1",
-          name: "Standard Queen",
-          price: "$80",
-          imageSrc: "http://img.b2bpic.net/free-photo/apartment-comfortable-pillow-hotel-suite_1203-5168.jpg",
-        },
-        {
-          id: "2",
-          name: "Deluxe Queen",
-          price: "$120",
-          imageSrc: "http://img.b2bpic.net/free-photo/modern-black-bathroom-vanity_23-2151962351.jpg",
-        },
-        {
-          id: "3",
-          name: "Superior Queen",
-          price: "$150",
-          imageSrc: "http://img.b2bpic.net/free-photo/white-robe-by-sauna-glass-door-warm-spa-interior_169016-69104.jpg",
-        },
-        {
-          id: "4",
-          name: "Business Suite",
-          price: "$190",
-          imageSrc: "http://img.b2bpic.net/free-photo/glass-orange-juice-desktop-near-laptop-morning_169016-24917.jpg",
-        },
-        {
-          id: "5",
-          name: "Family Suite",
-          price: "$220",
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-composition-spa-bath-concept_23-2148094318.jpg",
-        },
-        {
-          id: "6",
-          name: "Executive Room",
-          price: "$250",
-          imageSrc: "http://img.b2bpic.net/free-photo/smiling-handsome-guy-looks-his-passport-flight-ticket-sits-floor-with-suitcase_1258-314143.jpg",
-        },
+        { id: "1", name: "Standard Queen", price: "$80", imageSrc: "http://img.b2bpic.net/free-photo/apartment-comfortable-pillow-hotel-suite_1203-5168.jpg" },
+        { id: "2", name: "Deluxe Queen", price: "$120", imageSrc: "http://img.b2bpic.net/free-photo/modern-black-bathroom-vanity_23-2151962351.jpg" },
+        { id: "3", name: "Superior Queen", price: "$150", imageSrc: "http://img.b2bpic.net/free-photo/white-robe-by-sauna-glass-door-warm-spa-interior_169016-69104.jpg" },
+        { id: "4", name: "Business Suite", price: "$190", imageSrc: "http://img.b2bpic.net/free-photo/glass-orange-juice-desktop-near-laptop-morning_169016-24917.jpg" },
+        { id: "5", name: "Family Suite", price: "$220", imageSrc: "http://img.b2bpic.net/free-photo/beautiful-composition-spa-bath-concept_23-2148094318.jpg" },
+        { id: "6", name: "Executive Room", price: "$250", imageSrc: "http://img.b2bpic.net/free-photo/smiling-handsome-guy-looks-his-passport-flight-ticket-sits-floor-with-suitcase_1258-314143.jpg" },
       ]}
       title="Comfortable Rooms"
       description="Relax in our modern rooms designed for your complete comfort."
@@ -183,30 +98,16 @@ export default function LandingPage() {
       <FeatureBento
       textboxLayout="split"
       useInvertedBackground={false}
+      animationType="slide-up"
       features={[
         {
-          title: "Mobility Solutions",
-          description: "Bicycle storage, bike rental, and car rental services.",
-          bentoComponent: "reveal-icon",
-          icon: Car,
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-bora-travel-tree-bungalow_1253-341.jpg",
-          imageAlt: "beautiful bora travel tree bungalow",
+          title: "Mobility Solutions",          description: "Bicycle storage, bike rental, and car rental services.",          bentoComponent: "reveal-icon",          icon: Car,
         },
         {
-          title: "On-Site Dining",
-          description: "Relax at our café or order food directly to your room.",
-          bentoComponent: "reveal-icon",
-          icon: Coffee,
-          imageSrc: "http://img.b2bpic.net/free-photo/indoor-design-luxury-resort_23-2150497253.jpg?_wi=2",
-          imageAlt: "beautiful bora travel tree bungalow",
+          title: "On-Site Dining",          description: "Relax at our café or order food directly to your room.",          bentoComponent: "reveal-icon",          icon: Coffee,
         },
         {
-          title: "Daily Comforts",
-          description: "Laundry, wake-up calls, and housekeeping at your request.",
-          bentoComponent: "reveal-icon",
-          icon: Sparkles,
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-greenery_53876-147903.jpg?_wi=2",
-          imageAlt: "beautiful bora travel tree bungalow",
+          title: "Daily Comforts",          description: "Laundry, wake-up calls, and housekeeping at your request.",          bentoComponent: "reveal-icon",          icon: Sparkles,
         },
       ]}
       title="Full Hotel Services"
@@ -220,21 +121,9 @@ export default function LandingPage() {
       title="Our Impact"
       tag="Reliability"
       metrics={[
-        {
-          id: "1",
-          value: "100+",
-          description: "Rooms serviced",
-        },
-        {
-          id: "2",
-          value: "500+",
-          description: "Happy travelers",
-        },
-        {
-          id: "3",
-          value: "24/7",
-          description: "Security & Care",
-        },
+        { id: "1", value: "100+", description: "Rooms serviced" },
+        { id: "2", value: "500+", description: "Happy travelers" },
+        { id: "3", value: "24/7", description: "Security & Care" },
       ]}
       metricsAnimation="slide-up"
     />
@@ -247,46 +136,11 @@ export default function LandingPage() {
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       testimonials={[
-        {
-          id: "1",
-          name: "Sarah J.",
-          role: "Traveler",
-          company: "UK",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/man-showing-his-boarding-pass-check-counter_107420-85116.jpg",
-        },
-        {
-          id: "2",
-          name: "The Miller Family",
-          role: "Guests",
-          company: "USA",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/family-taking-selfie-with-smartphone_23-2149126762.jpg",
-        },
-        {
-          id: "3",
-          name: "Mark D.",
-          role: "Business Guest",
-          company: "Australia",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-working-outdoors-using-laptop_23-2149318573.jpg",
-        },
-        {
-          id: "4",
-          name: "Elena V.",
-          role: "Traveler",
-          company: "Germany",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/friends-having-fun-white-party_23-2149530422.jpg",
-        },
-        {
-          id: "5",
-          name: "Ken T.",
-          role: "Traveler",
-          company: "Japan",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/talking-wife_1098-13921.jpg",
-        },
+        { id: "1", name: "Sarah J.", role: "Traveler", company: "UK", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/man-showing-his-boarding-pass-check-counter_107420-85116.jpg" },
+        { id: "2", name: "The Miller Family", role: "Guests", company: "USA", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/family-taking-selfie-with-smartphone_23-2149126762.jpg" },
+        { id: "3", name: "Mark D.", role: "Business Guest", company: "Australia", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/woman-working-outdoors-using-laptop_23-2149318573.jpg" },
+        { id: "4", name: "Elena V.", role: "Traveler", company: "Germany", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/friends-having-fun-white-party_23-2149530422.jpg" },
+        { id: "5", name: "Ken T.", role: "Traveler", company: "Japan", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/talking-wife_1098-13921.jpg" },
       ]}
       title="Guest Testimonials"
       description="What our guests say about Hotel Calidum."
@@ -298,21 +152,9 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={true}
       faqs={[
-        {
-          id: "1",
-          title: "Is the hotel family friendly?",
-          content: "Yes! We offer a dedicated playground and our rooms are perfect for family travel.",
-        },
-        {
-          id: "2",
-          title: "Do you offer bicycle rentals?",
-          content: "Absolutely. We have a secure bicycle storage room and rental services.",
-        },
-        {
-          id: "3",
-          title: "Is WiFi free?",
-          content: "High-speed WiFi is complimentary for all our guests.",
-        },
+        { id: "1", title: "Is the hotel family friendly?", content: "Yes! We offer a dedicated playground and our rooms are perfect for family travel." },
+        { id: "2", title: "Do you offer bicycle rentals?", content: "Absolutely. We have a secure bicycle storage room and rental services." },
+        { id: "3", title: "Is WiFi free?", content: "High-speed WiFi is complimentary for all our guests." },
       ]}
       title="Common Questions"
       description="Everything you need to know about your stay."
@@ -326,24 +168,10 @@ export default function LandingPage() {
       title="Book Your Stay"
       description="Ready to experience Calidum? Get in touch today."
       inputs={[
-        {
-          name: "name",
-          type: "text",
-          placeholder: "Your Name",
-          required: true,
-        },
-        {
-          name: "email",
-          type: "email",
-          placeholder: "Email Address",
-          required: true,
-        },
+        { name: "name", type: "text", placeholder: "Your Name", required: true },
+        { name: "email", type: "email", placeholder: "Email Address", required: true },
       ]}
-      textarea={{
-        name: "message",
-        placeholder: "Your room preferences or questions",
-        rows: 4,
-      }}
+      textarea={{ name: "message", placeholder: "Your room preferences or questions", rows: 4 }}
       imageSrc="http://img.b2bpic.net/free-photo/minimalist-architecture-space_23-2151912505.jpg"
       buttonText="Send Request"
     />
@@ -355,33 +183,16 @@ export default function LandingPage() {
       logoText="Hotel Calidum"
       columns={[
         {
-          title: "Navigation",
-          items: [
-            {
-              label: "About",
-              href: "#about",
-            },
-            {
-              label: "Rooms",
-              href: "#rooms",
-            },
-            {
-              label: "Contact",
-              href: "#contact",
-            },
+          title: "Navigation",          items: [
+            { label: "About", href: "#about" },
+            { label: "Rooms", href: "#rooms" },
+            { label: "Contact", href: "#contact" },
           ],
         },
         {
-          title: "Support",
-          items: [
-            {
-              label: "Privacy Policy",
-              href: "#",
-            },
-            {
-              label: "FAQs",
-              href: "#faq",
-            },
+          title: "Support",          items: [
+            { label: "Privacy Policy", href: "#" },
+            { label: "FAQs", href: "#faq" },
           ],
         },
       ]}
